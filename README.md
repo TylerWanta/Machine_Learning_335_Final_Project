@@ -12,7 +12,7 @@ Final Project for Machine Learning
   2. Basic visualization of the data. (Visualize the Data.ipynb)
   3. Feature extraction (setUpData_part1.ipynb)
   4. Descriptive Regression - Where I analyze the data using regression tactics. (Descriptive Regression.ipynb)
-  5. Predictive Regression - Using regression algorithms to create models. (Predictive Regression.ipynb)
+  5. Predictive Regression - Using regression algorithms to create models. Most interesting in my opinion. (Predictive Regression.ipynb)
   6. Descriptive Classification - Where I analyze the data using classification tactics. (Desciptive Classification - CLustering.ipynb)
   7. Supervised Classification - Using classification algoritms to create models. (Supervised Classification.ipynb)
   8. Neural Network - Using a Neural Network on the data set. (CNN_fashionDataset.ipynb)
