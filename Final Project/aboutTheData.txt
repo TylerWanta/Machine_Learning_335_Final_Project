@@ -1,0 +1,31 @@
+Original Data:
+The original data is pretty self-explanitory. Each entry in the styles.csv has an id that refers to an image in the 'images' folder with the same name. Each row also has 9 attributes. They are
+    - Gender: The gender for which this clothing item is designed for
+    - Master Category: The Category for which this  item falls into i.e Footwear, accessories, apperal, etc.
+    - Sub category: The Category which this  item falls into for the master category i.e a master cateogry of footwear and subcategory
+        of shoes
+    - Article Type: The more generic name for each item i.e Tshirt, Socks, Track Pants, etc.
+    - Base Colour: The main color of the item
+    - Season: The main season it is used/ worn 
+    - Year: Year it was released
+    - Usage: Main atmosphere in which it is worn i.e Casual, Formal, Ethnic
+    - Product Display Name: The Name of the item
+    
+Formated Data for Project:
+For this project, I needed 4 numerical values and a categorical value. For this I decided to convert some of the already existing attributes into some similar numerical ones. 
+    -Age: Came from Gender. Represents the age group of which item is for.
+        0 => Any Age
+        1 => Younger than Adults
+        2 => Adults and older
+    - TripletOfMonth: Came from Season. Represents the months in which item is usually worn
+        0 => Something Went wrong
+        1 => January, Febuary, March // winter 
+        2 => April, May, June // spring
+        3 => July, August, September // summer
+        4 => October, Novermber, December // fall
+    - CommonRed: Came from image. Represents the most common red value in image
+    - CommonGreen: Came from image. Represents the most common green value in image
+    - CommonBlue: Came from iamge. Represents the msot common blue value in image
+    
+    
+I did name the data part1 because I intended to add some more on to it. The main thing I wanted was more information about the images so I could see if there were some trends base on similiar images. The main values I was going to add was number of vertical and horizontal lines in the images. But due to time constraints I wasn't able to get meaningful results and had to discard the idea. 
